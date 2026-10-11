@@ -5,7 +5,7 @@
   "order": 20,
   "images": [
     {
-      "src": "docs/preview.png",
+      "src": "doc/preview.png",
       "alt": {
         "fr": "Interface du lecteur YouTube synchronisé affichant une vidéo avec barre de progression et contrôles",
         "en": "Interface of the synced YouTube player showing a video with progress bar and controls"
