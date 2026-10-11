@@ -2,7 +2,7 @@
   "id": "synced-youtube-player",
   "title": "Synced YouTube Player",
   "description": "The GM plays a YouTube video and every player watches it in sync, with search and a shared video library. Works with any system.",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "compatibility": {
     "minimum": "11",
     "verified": "14"
@@ -14,7 +14,7 @@
   ],
   "url": "https://github.com/Stphn-Wrn/synced-youtube-player",
   "manifest": "https://raw.githubusercontent.com/Stphn-Wrn/synced-youtube-player/main/module.json",
-  "download": "https://github.com/Stphn-Wrn/synced-youtube-player/releases/download/v2.0.0/synced-youtube-player.zip",
+  "download": "https://github.com/Stphn-Wrn/synced-youtube-player/releases/download/v2.1.0/synced-youtube-player.zip",
   "license": "MIT",
   "esmodules": [
     "src/main.js"
