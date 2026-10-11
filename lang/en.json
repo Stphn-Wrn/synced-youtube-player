@@ -1,0 +1,67 @@
+{
+  "SYP": {
+    "Youtube": {
+      "Title": "YouTube Player",
+      "Unsorted": "Unsorted",
+      "VideoFallback": "Video {id}",
+      "ConfirmClick": "Click again to confirm",
+      "Expand": "Expand the player",
+      "Move": "Move",
+      "SearchAndLibrary": "Search and library",
+      "Collapse": "Collapse",
+      "PlayPause": "Play / pause",
+      "Join": "Join the broadcast",
+      "Placeholder": "Search for a video or pick one from the library to broadcast it.",
+      "Volume": "Volume (only for you)",
+      "Fullscreen": "Fullscreen",
+      "Stop": "Stop the broadcast for everyone",
+      "SearchPlaceholder": "Search YouTube or paste one or more links",
+      "Search": "Search",
+      "Library": "Library",
+      "NewFolder": "New folder",
+      "FolderName": "Folder name",
+      "Create": "Create",
+      "RenameFolder": "Rename the folder",
+      "DeleteFolder": "Delete the folder (its videos move to \"Unsorted\")",
+      "VideoHint": "{title} — click to broadcast, drag to change folder",
+      "RenameVideo": "Rename the video",
+      "DeleteVideo": "Delete the video",
+      "EmptyFolder": "Empty folder — drag videos here",
+      "EmptyLibrary": "No videos yet. Search for one above.",
+      "Searching": "Searching…",
+      "Results": "Results ({count})",
+      "TargetFolder": "Folder to add the videos to",
+      "AddAll": "Add the {count} videos to the library",
+      "CloseResults": "Close the results",
+      "PlayNow": "Broadcast now",
+      "AlreadySaved": "Already in the library",
+      "AddToLibrary": "Add to the library",
+      "NoResults": "No results.",
+      "Errors": {
+        "EmptyFolderName": "The folder name cannot be empty.",
+        "EmptyVideoTitle": "The video title cannot be empty.",
+        "EmptyVideoId": "The YouTube ID cannot be empty.",
+        "InvalidLink": "Invalid YouTube link.",
+        "ApiRefused": "YouTube search refused ({reason}): check the API key.",
+        "NoProvider": "No search service responded. Set a YouTube API key in the module settings.",
+        "IframeApi": "Could not load the YouTube API."
+      }
+    },
+    "Settings": {
+      "YoutubeApiKey": {
+        "Name": "API key (search)",
+        "Hint": "Optional. A \"YouTube Data API v3\" key (Google Cloud Console) for reliable search. Without a key, search uses public Invidious instances, which are sometimes unavailable."
+      },
+      "YoutubeInvidiousInstances": {
+        "Name": "Invidious instances",
+        "Hint": "Used for search when no API key is set, in order, separated by commas."
+      }
+    },
+    "Common": {
+      "Cancel": "Cancel"
+    },
+    "Migration": {
+      "Done": "Synced YouTube Player: your video library and settings were imported from the SotDL Companion."
+    }
+  }
+}

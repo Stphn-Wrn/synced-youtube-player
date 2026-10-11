@@ -1,0 +1,67 @@
+{
+  "SYP": {
+    "Youtube": {
+      "Title": "Lecteur YouTube",
+      "Unsorted": "Non classé",
+      "VideoFallback": "Vidéo {id}",
+      "ConfirmClick": "Cliquer à nouveau pour confirmer",
+      "Expand": "Agrandir le lecteur",
+      "Move": "Déplacer",
+      "SearchAndLibrary": "Recherche et bibliothèque",
+      "Collapse": "Réduire",
+      "PlayPause": "Lecture / pause",
+      "Join": "Rejoindre la diffusion",
+      "Placeholder": "Recherchez une vidéo ou choisissez-en une dans la bibliothèque pour la diffuser.",
+      "Volume": "Volume (uniquement pour vous)",
+      "Fullscreen": "Plein écran",
+      "Stop": "Arrêter la diffusion pour tout le monde",
+      "SearchPlaceholder": "Rechercher sur YouTube ou coller un ou plusieurs liens",
+      "Search": "Rechercher",
+      "Library": "Bibliothèque",
+      "NewFolder": "Nouveau dossier",
+      "FolderName": "Nom du dossier",
+      "Create": "Créer",
+      "RenameFolder": "Renommer le dossier",
+      "DeleteFolder": "Supprimer le dossier (ses vidéos passent dans « Non classé »)",
+      "VideoHint": "{title} — cliquer pour diffuser, glisser pour changer de dossier",
+      "RenameVideo": "Renommer la vidéo",
+      "DeleteVideo": "Supprimer la vidéo",
+      "EmptyFolder": "Dossier vide — glissez-y des vidéos",
+      "EmptyLibrary": "Aucune vidéo pour le moment. Recherchez-en une ci-dessus.",
+      "Searching": "Recherche en cours…",
+      "Results": "Résultats ({count})",
+      "TargetFolder": "Dossier dans lequel ajouter les vidéos",
+      "AddAll": "Ajouter les {count} vidéos à la bibliothèque",
+      "CloseResults": "Fermer les résultats",
+      "PlayNow": "Diffuser maintenant",
+      "AlreadySaved": "Déjà dans la bibliothèque",
+      "AddToLibrary": "Ajouter à la bibliothèque",
+      "NoResults": "Aucun résultat.",
+      "Errors": {
+        "EmptyFolderName": "Le nom du dossier ne peut pas être vide.",
+        "EmptyVideoTitle": "Le titre de la vidéo ne peut pas être vide.",
+        "EmptyVideoId": "L'identifiant YouTube ne peut pas être vide.",
+        "InvalidLink": "Lien YouTube invalide.",
+        "ApiRefused": "Recherche YouTube refusée ({reason}) : vérifiez la clé API.",
+        "NoProvider": "Aucun service de recherche n'a répondu. Renseignez une clé API YouTube dans les paramètres du module.",
+        "IframeApi": "Impossible de charger l'API YouTube."
+      }
+    },
+    "Settings": {
+      "YoutubeApiKey": {
+        "Name": "Clé API (recherche)",
+        "Hint": "Facultatif. Clé « YouTube Data API v3 » (Google Cloud Console) pour une recherche fiable. Sans clé, la recherche passe par des instances publiques Invidious, parfois indisponibles."
+      },
+      "YoutubeInvidiousInstances": {
+        "Name": "Instances Invidious",
+        "Hint": "Utilisées pour la recherche quand aucune clé API n'est renseignée, dans l'ordre, séparées par des virgules."
+      }
+    },
+    "Common": {
+      "Cancel": "Annuler"
+    },
+    "Migration": {
+      "Done": "Lecteur YouTube synchronisé : votre bibliothèque de vidéos et vos réglages ont été repris du Compagnon SODL."
+    }
+  }
+}

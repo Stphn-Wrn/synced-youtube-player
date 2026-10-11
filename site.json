@@ -1,0 +1,28 @@
+{
+  "group": "tools",
+  "platform": "foundry",
+  "icon": "fa-film",
+  "order": 20,
+  "text": {
+    "fr": {
+      "title": "Lecteur YouTube synchronisé",
+      "summary": "Le MJ lance une vidéo YouTube, toute la table la regarde en même temps. Tous systèmes.",
+      "features": [
+        "Lecture, pause et sauts synchronisés",
+        "Recherche YouTube ou lien collé",
+        "Bibliothèque partagée en dossiers",
+        "Widget flottant, volume propre à chacun"
+      ]
+    },
+    "en": {
+      "title": "Synced YouTube Player",
+      "summary": "The GM plays a YouTube video and the whole table watches it together. Any system.",
+      "features": [
+        "Synced play, pause and seek",
+        "YouTube search or pasted links",
+        "Shared library with folders",
+        "Floating widget, per-user volume"
+      ]
+    }
+  }
+}
